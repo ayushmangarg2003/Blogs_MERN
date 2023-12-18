@@ -1,7 +1,7 @@
 ## Link to Website
 https://blogs-my-sql.vercel.app/
 
-This is a full-stack website created using ExpressJS, ReactJS, Node.js, and MySQL as the database. It enables users to perform CRUD operations, and also includes a login/signup feature.
+This is a full-stack website created using ExpressJS, ReactJS, Node.js, and MongoDB as the database. It enables users to perform CRUD operations, and also includes a login/signup feature.
 
 ![Screenshot (12)](https://user-images.githubusercontent.com/105537793/234499224-f17fadb7-3e51-4fe4-9a65-77f3758b09f3.png)
 ![trueblog](https://user-images.githubusercontent.com/105537793/234499235-c62b47a5-1852-4124-a35e-f36536d3fe86.png)
