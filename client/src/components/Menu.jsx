@@ -23,7 +23,7 @@ const Menu = ({cat}) => {
     <div className="menu">
         <h1>Some Similar Posts</h1>
         {posts.map((post) => (
-            <div className="post" key={post.id}>
+            <div className="post" key={post._id}>
                 <img src={post.img} alt={post.title} />
                 <Link className="link" to={`/post/${post.id}`}>
                   <h1>{post.title}</h1>
