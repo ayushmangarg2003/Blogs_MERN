@@ -4,7 +4,7 @@ import App from "./App";
 import "./style.scss";
 import { AuthContextProvider } from "./context/authContext.js";
 
-export const backendLink = "http://localhost:4000";
+export const backendLink = "https://blogs-mern-xklh.onrender.com";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
