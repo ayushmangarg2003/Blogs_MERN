@@ -25,10 +25,10 @@ const Menu = ({cat}) => {
         {posts.map((post) => (
             <div className="post" key={post._id}>
                 <img src={post.img} alt={post.title} />
-                <Link className="link" to={`/post/${post.id}`}>
+                <Link className="link" to={`/post/${post._id}`}>
                   <h1>{post.title}</h1>
                 </Link>
-                <Link className="link" to={`/post/${post.id}`}>
+                <Link className="link" to={`/post/${post._id}`}>
                 <button>Read More</button>
                 </Link>
             </div>
